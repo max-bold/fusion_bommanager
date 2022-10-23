@@ -1,0 +1,29 @@
+{
+    "configurations": [
+
+    {
+        "type": "firefox",
+        "request": "launch",
+        "reAttach": true,
+        "name": "Launch test h1.html",
+        "file": "${workspaceFolder}/tests/h1.html"
+    },
+    {
+        "name":	"Python: Attach to Fusion 360",
+        "type":	"python",
+        "request":	"attach",
+        "pathMappings":	[{
+                "localRoot":	"${workspaceRoot}",
+                "remoteRoot":	"${workspaceRoot}"
+            }],
+        "osx":	{
+            "filePath":	"${file}"
+        },
+        "windows":	{
+            "filePath":	"${file}"
+        },
+        "port":	9000,
+        "host":	"localhost"
+    }
+    ]
+}

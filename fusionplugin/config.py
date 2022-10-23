@@ -14,8 +14,8 @@ DEBUG = True
 # This is used when defining unique internal names for various UI elements 
 # that need a unique name. It's also recommended to use a company name as 
 # part of the ID to better ensure the ID is unique.
-ADDIN_NAME = os.path.basename(os.path.dirname(__file__))
-COMPANY_NAME = 'ACME'
+ADDIN_NAME = 'BOMMANAGER'
+COMPANY_NAME = 'BM'
 
 # Palettes
 sample_palette_id = f'{COMPANY_NAME}_{ADDIN_NAME}_palette_id'

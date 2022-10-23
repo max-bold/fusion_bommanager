@@ -1,0 +1,15 @@
+<head>
+    <title>HTML+JS Test 1</title>
+    <script>
+        function buttonpress(){
+            document.getElementById('text').innerText='pressed'
+        }
+        function buttonrelease(){
+            document.getElementById('text').innerText='released'
+        }
+    </script>
+</head>
+<body>
+    <button onmousedown="buttonpress()" onmouseup="buttonrelease()">Push me!</button>
+    <p id="text">waiting</p>
+</body>
